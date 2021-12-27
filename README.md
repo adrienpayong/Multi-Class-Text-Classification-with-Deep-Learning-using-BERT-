@@ -1,4 +1,4 @@
-# Multi-Class-Text-Classification-with-Deep-Learning-using-BERT-
+# Multi-Class-Text-Classification-with-Deep-Learning-using-BERT
 
 Texts are the most prevalent kind of data in the world today.
 Text is a rich source of information, but since it is unstructured, extracting insights from it may be difficult and time-consuming.
@@ -32,18 +32,17 @@ The project's goal is to create, train, and fine-tune the BERT model for classif
 
 ## Approach 
 
-
-    Checking the hardware acceleration settings.
-    Installing the required libraries
-    Checking for the available dataset from the hugging face library
-    Importing the required dataset
-    Loading the train and test data
-    Creating dataframe objects for train and test data.
-    Performing data pre-processing
-    Creating the BERT model.
-    Compile the BERT model.
-    Training the BERT model on some defined hyperparameters.
-    Evaluating the performance metrics
-    Saving the model.
+Checking the hardware acceleration settings.
+Installing the required libraries
+Checking for the available dataset from the hugging face library
+Importing the required dataset
+Loading the train and test data
+Creating dataframe objects for train and test data.
+Performing data pre-processing
+Creating the BERT model.
+Compile the BERT model.
+Training the BERT model on some defined hyperparameters.
+Evaluating the performance metrics
+Saving the model.
 
  
