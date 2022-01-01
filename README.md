@@ -43,14 +43,6 @@ Below are the steps to be followed:
 
 5. All predictions and models are stored in the output folder. 
 
-## Data Explanation
-
-We will be utilizing datasets from the hugging face collection for our case study.
-The AG News dataset will be used to train the BERT model. 
-- AG News (AG's News Corpus) is a subset of AG's corpus of news items that was created by combining the titles and descriptions of articles from the four largest classes.
-- The four classes are as follows:
-World, sports, business, and science/technology
-- Each class in the AG News has 30,000 training and 1,900 test samples. 
 
 
 
