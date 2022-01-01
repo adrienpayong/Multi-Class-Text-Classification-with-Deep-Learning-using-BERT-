@@ -1,3 +1,4 @@
+# Business Objective 
 
 Texts are the most prevalent kind of data in the world today.
 Text is a rich source of information, but since it is unstructured, extracting insights from it may be difficult and time-consuming.
@@ -7,7 +8,7 @@ Today, there are several algorithms developed to conduct text classification, wi
 Bidirectional Encoder Representations from Transformers (BERT) is a popular NLP model from Google that is famous for generating cutting-edge outcomes in a broad range of NLP jobs.Natural Language Processing (NLP) is very important in the field of artificial intelligence. The BERT method is based on ground-breaking concepts like seq2seq models and transformers. The seq2seq model is a network that can transform a given sequence of words into a new sequence and connect the words that seem to be more essential. This project will go through the application of the BERT basic model to text classification in great detail.
 We'll see how this cutting-edge Transformer model can produce incredibly high-performance metrics for a big corpus of data with over 100k tagged training samples.
 
-### AG News Text Classification with BERT ###
+## AG News Text Classification with BERT 
 
 This repository covers the code for performing text classification on the AG News dataset using state-of-the-art transformer model BERT.
 AG News (AG’s News Corpus) is a sub dataset of AG's corpus of news articles 
@@ -30,9 +31,10 @@ Below are the steps to be followed:
 2. The entire repository is modularised in to individual sections which performs specific task.
    First, go to src folder.
    Under src, there are 2 primary packages:
-   a> ML_Pipeline:
+   
+   - ML_Pipeline:
    This contains individual modules with different function declarations to perform specific Machine Learning task.
-   b> engine.py:
+   - engine.py:
    This is the heart of the project, as all the function calls are done here.
    
 3. Run/Debug the engine.py file and all the steps will be automatically taken care as per the logic.
@@ -50,17 +52,6 @@ The AG News dataset will be used to train the BERT model.
 World, sports, business, and science/technology
 - Each class in the AG News has 30,000 training and 1,900 test samples. 
 
-## Aim
-The project's goal is to create, train, and fine-tune the BERT model for classification on the AG News dataset. 
-
-## Tech stack
-
- - Language - Python
- - Libraries – ktrain, transformers, datasets, numpy, pandas, tensorflow, timeit
-
-## Environment
-
- - Jupyter Notebook
 
 
  
